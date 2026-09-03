@@ -7,7 +7,7 @@ Thư mục này được **sinh tự động** từ `.kiro/skills/` bằng `scri
 node scripts/export-skills.mjs
 ```
 
-Tổng số skill xuất ra: **30**. Cả 4 định dạng đều dựa trên chuẩn mở
+Tổng số skill xuất ra: **31**. Cả 4 định dạng đều dựa trên chuẩn mở
 **Agent Skills** (`SKILL.md` + front-matter `name`/`description`), khác nhau ở
 vị trí thư mục và (với Codex) có thêm `AGENTS.md` tổng hợp.
 
@@ -37,6 +37,7 @@ Claude tự nạp skill khi mô tả khớp, hoặc gọi `/<name>`.
 ### Nền tảng (dùng trước tiên)
 
 - `blog-foundations` — Nền tảng dùng chung cho mọi bài blog kỹ thuật — giọng văn, cấu trúc bài, chuẩn SEO, quy tắc trích dẫn nguồn, và formatting Markdown. Kích hoạt skill này TRƯỚC khi viết bất kỳ bài blog nào (tin tức AI, kỹ thuật Backend, tips lập trình với AI). Các skill viết chuyên biệt đều kế thừa các quy tắc ở đây.
+- `blog-foundations-lite` — Bản rút gọn của blog-foundations cho model ngữ cảnh ngắn / model nhỏ — chỉ giữ các lệnh bắt buộc và checklist, bỏ phần giải thích dài. Dùng khi không đủ ngân sách token để nạp blog-foundations đầy đủ. Nếu model đủ mạnh và ngữ cảnh đủ dài, ưu tiên blog-foundations bản đầy đủ.
 - `blog-review` — Nền tảng review bài blog kỹ thuật trước khi xuất bản — quy trình review, tiêu chí chấm, phân loại mức độ nghiêm trọng của lỗi, và format báo cáo review chuẩn. Kích hoạt khi người dùng muốn review, biên tập, kiểm tra, hoặc góp ý một bài blog. Mọi skill review chuyên biệt (tin tức AI, Backend, tips AI, System Design, LLD, DSA, ML System Design, behavioral) kế thừa từ đây.
 
 ### Chiến lược & SEO

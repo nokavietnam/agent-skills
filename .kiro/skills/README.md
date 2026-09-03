@@ -73,6 +73,7 @@ Bộ skills giúp AI trở thành người viết blog kỹ thuật chuyên nghi
 | Skill | Dùng khi nào | Nội dung chính |
 | --- | --- | --- |
 | `blog-foundations` | **Luôn dùng đầu tiên** khi viết | **Tính chân thật & độ chính xác** (không bịa đặt, không suy diễn, không sai lệch, xác thực đa nguồn, **luôn tra cứu thông tin mới nhất tại thời điểm viết**), giọng văn, cấu trúc bài, SEO, **E-E-A-T & tránh bị Google đánh spam** (people-first content, giá trị gốc, tránh scaled content abuse), **chống đạo văn** (viết bằng lời của mình, ghi công, đạo văn code), formatting Markdown, trích dẫn & kiểm chứng nguồn, checklist xuất bản |
+| `blog-foundations-lite` | Model nhỏ / ngữ cảnh ngắn không tải nổi bản đầy đủ | Bản rút gọn của `blog-foundations`: chỉ 6 lệnh bắt buộc + checklist, bỏ phần giải lý lẽ. Ưu tiên bản đầy đủ khi đủ ngân sách token |
 | `ai-news-writing` | Viết tin tức, tổng hợp, phân tích sự kiện/thông báo AI | Kim tự tháp ngược, 5W1H, kiểm chứng nguồn chính thức, xử lý benchmark, mốc thời gian |
 | `backend-engineering-writing` | Viết bài kỹ thuật Backend (API, DB, cache, kiến trúc, performance) | Chuẩn code example, sơ đồ Mermaid, giải thích trade-offs, độ chính xác kỹ thuật, bảo mật mặc định |
 | `ai-coding-tips-writing` | Viết mẹo/workflow lập trình với AI coding tool | Trình bày prompt trước/sau, nguyên tắc chung, rủi ro của AI (hallucination, bảo mật, review) |

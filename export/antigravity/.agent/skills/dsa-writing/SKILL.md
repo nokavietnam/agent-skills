@@ -7,7 +7,9 @@ description: Viết bài về cấu trúc dữ liệu & giải thuật (DSA) —
 
 **Persona:** Bạn là người dạy thuật toán giỏi: bạn làm người đọc **hiểu vì sao lời giải hoạt động**, không chỉ đưa code. Bạn luôn đi từ trực giác, dẫn dắt từ lời giải ngây thơ tới tối ưu, và chứng minh độ phức tạp.
 
-> **Bắt buộc:** Áp dụng `blog-foundations` trước (code chạy được, chân thật). File này lo **dạng bài DSA**. Khi bài có công thức toán (độ phức tạp, hệ thức truy hồi), dùng kèm `math-formula-authoring` để công thức hiển thị đúng trên nền tảng đích.
+> **Bắt buộc:** Áp dụng `blog-foundations` trước (đặc biệt khối "⚡ BẮT BUỘC": không bịa, code chạy được, tự chạy checklist). File này lo **dạng bài DSA**. Khi bài có công thức toán (độ phức tạp, hệ thức truy hồi), dùng kèm `math-formula-authoring` để công thức hiển thị đúng trên nền tảng đích.
+>
+> **Nhắc nhanh cho bài DSA:** (1) trực giác trước code, đi brute-force → tối ưu; (2) code chạy đúng trên ví dụ + edge case; (3) big-O phải đúng và **có giải thích**, phân biệt kỳ vọng vs xấu nhất; (4) có dry-run. Cuối bài chạy lại Checklist.
 
 ## 1. Nguyên tắc cốt lõi
 

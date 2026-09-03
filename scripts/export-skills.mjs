@@ -25,6 +25,7 @@ const OUT_DIR = path.join(ROOT, "export");
 // ---------------------------------------------------------------------------
 const CATEGORY = {
   "blog-foundations": "foundations",
+  "blog-foundations-lite": "foundations",
   "blog-review": "foundations",
   "blog-ideation-seo": "strategy-seo",
   "title-headline-writing": "strategy-seo",

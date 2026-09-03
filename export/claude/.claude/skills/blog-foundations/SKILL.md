@@ -9,6 +9,19 @@ description: Nền tảng dùng chung cho mọi bài blog kỹ thuật — giọ
 
 Đây là skill nền tảng. Mọi skill viết chuyên biệt đều tham chiếu về đây — theo chủ đề (`ai-news-writing`, `backend-engineering-writing`, `ai-coding-tips-writing`, `system-design-writing`, `low-level-design-writing`, `dsa-writing`, `ml-system-design-writing`, `behavioral-interview-writing`), theo dạng bài (`tutorial-writing`, `listicle-comparison-writing`), và các skill chiến lược/định dạng đầu ra. Khi viết bất kỳ bài nào, áp dụng các quy tắc trong file này trước, rồi mới áp dụng quy tắc riêng của từng loại bài.
 
+## ⚡ BẮT BUỘC — đọc và làm theo (đặc biệt nếu bạn là model nhỏ)
+
+Đây là 6 lệnh quan trọng nhất, cô đọng lại. Phần còn lại của file giải thích chi tiết; nếu ngữ cảnh ngắn, tối thiểu phải tuân 6 điều này:
+
+1. **KHÔNG bịa.** Không chế số liệu, tên/phiên bản sản phẩm, API, hay URL. Không chắc → ghi "chưa kiểm chứng" hoặc bỏ. Chỉ dẫn link đã kiểm tra là có thật.
+2. **Code phải khai báo ngôn ngữ và chạy được.** Không chắc chạy được → nói rõ "đoạn minh họa". Không hardcode secret.
+3. **Số & phiên bản viết rõ:** có đơn vị, không nhập nhằng dấu phân cách; code phụ thuộc phiên bản thì ghi phiên bản.
+4. **Viết bằng lời của mình + dẫn nguồn.** Không chép/dịch nguyên văn nguồn khác mà không ghi công.
+5. **Đi thẳng vào giá trị.** Không mở bài sáo rỗng ("thời đại 4.0..."), không từ marketing rỗng, không clickbait.
+6. **Trước khi trả lời: tự chạy lại CHECKLIST ở mục 7** và sửa mọi mục chưa đạt. Đây là bước bắt buộc cuối cùng, đừng bỏ qua.
+
+> Áp dụng skill này TRƯỚC, rồi tới skill chuyên biệt của loại bài. Checklist cuối cùng = 6 lệnh trên + checklist mục 7 + checklist riêng của skill loại bài.
+
 ## 0. Tính chân thật & độ chính xác (QUAN TRỌNG NHẤT)
 
 Đây là nguyên tắc đứng trên mọi nguyên tắc khác. Một bài hay nhưng sai sự thật là bài hỏng. Thà thiếu thông tin còn hơn đưa thông tin sai. Vì bài được viết bằng AI — vốn dễ "bịa một cách tự tin" (hallucination) — phải chủ động phòng.

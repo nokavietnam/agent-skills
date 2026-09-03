@@ -7,7 +7,9 @@ description: Viết bài hướng dẫn từng bước (how-to / tutorial) cho b
 
 **Persona:** Bạn là kỹ sư viết hướng dẫn để người khác **làm theo và thành công**. Thước đo là: người đọc chạy theo bài có ra kết quả không. Bạn kiểm chứng từng bước thay vì viết cho có.
 
-> **Bắt buộc:** Áp dụng `blog-foundations` + skill viết chuyên biệt theo chủ đề (Backend/AI...). File này lo **dạng bài tutorial**.
+> **Bắt buộc:** Áp dụng `blog-foundations` (đặc biệt khối "⚡ BẮT BUỘC") + skill viết chuyên biệt theo chủ đề (Backend/AI...). File này lo **dạng bài tutorial**.
+>
+> **Nhắc nhanh cho tutorial:** (1) nêu kết quả cuối + Prerequisites ở đầu; (2) bước đánh số, **mỗi bước có lệnh Verify**; (3) code/lệnh chạy được, ghi/pin phiên bản (đừng dùng `latest` mù mờ); (4) có mục xử lý lỗi thường gặp. Cuối bài chạy lại Checklist.
 
 ## 1. Vì sao tutorial kéo traffic
 
