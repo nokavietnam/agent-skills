@@ -58,6 +58,7 @@ Review lần lượt theo 8 trục, ghi phát hiện kèm mức độ:
 - **Không phân biệt sự thật / suy luận / quan điểm** — trộn lẫn khiến người đọc tưởng suy đoán là sự thật → 🟡.
 - **Thông tin lỗi thời** — phiên bản/giá/tính năng/số liệu không còn đúng ở thời điểm viết, hoặc gọi thứ đã cũ là "mới nhất". Kiểm bằng web search + đối chiếu ngày hiện tại → 🔴 nếu sai hẳn hiện trạng, 🟡 nếu chỉ thiếu mốc thời gian.
 - **Nghi dựa vào trí nhớ model thay vì tra cứu** — con số/tên phiên bản cụ thể không kèm nguồn mới → 🟡, yêu cầu tra lại.
+- **Số liệu/phiên bản trình bày gây nhầm** — số lớn nhập nhằng dấu phân cách hoặc thiếu đơn vị ("1.160" không rõ 1,16 hay 1160); code phụ thuộc phiên bản không ghi phiên bản, hoặc dùng tag trôi nổi (`latest`) → 🟡, đề xuất viết rõ/ghim phiên bản.
 
 Khi báo lỗi, nếu tìm được nguồn phản chứng hãy dẫn kèm. Với dữ kiện không kiểm chứng được, đề xuất: bỏ ra khỏi bài hoặc hạ giọng thành "chưa xác nhận".
 

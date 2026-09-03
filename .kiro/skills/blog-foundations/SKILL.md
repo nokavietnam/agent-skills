@@ -48,6 +48,13 @@ Kiến thức nội tại của AI có "ngày cắt" (training cutoff) và nhanh
 - Cảnh giác với API, thư viện, hàm, tài liệu nghe "hợp lý" nhưng có thể không tồn tại — AI hay bịa những thứ này. Kiểm tra sự tồn tại thực tế trước khi đưa vào bài.
 - Nếu không thể kiểm chứng một chi tiết, thà bỏ nó ra khỏi bài còn hơn giữ lại một thông tin có thể sai.
 
+### Trình bày số liệu & phiên bản cho rõ (tránh gây hiểu nhầm)
+Viết đúng chưa đủ — phải viết *rõ* để người đọc không hiểu sai. Hai chỗ hay gây nhầm:
+
+- **Dấu phân cách số:** ở ngữ cảnh Việt/Âu, dấu chấm dễ bị đọc là hàng nghìn còn dấu phẩy là thập phân — ngược với kiểu Anh–Mỹ. Với số lớn, viết rõ đơn vị hoặc bằng chữ để không nhập nhằng: "≈ 1.157 (khoảng 1,2 nghìn) ghi/giây", "62⁷ ≈ 3.520 **nghìn tỉ** mã". Đừng để người đọc phải đoán "1.160" là 1,16 hay 1160.
+- **Luôn kèm đơn vị và mốc quy đổi** cho con số kỹ thuật (giây/ngày, MB/GB, ms/s). Khi ước lượng, nói rõ "bậc độ lớn", không phải số chính xác.
+- **Ghi/ghim phiên bản trong bài nhiều code:** khi code hoặc hành vi phụ thuộc phiên bản (ngôn ngữ, thư viện, image, CLI), ghi rõ phiên bản đã dùng ("chạy trên Go 1.22, pgx v5") và ưu tiên **ghim phiên bản/digest** trong ví dụ thay vì tag trôi nổi (`latest`). Điều này giúp người đọc tái lập được và biết bài chốt vào thời điểm nào.
+
 ## 1. Đối tượng người đọc
 
 Mặc định người đọc là **developer đi làm** (junior đến senior), đọc lướt trước khi đọc kỹ. Họ muốn:
@@ -183,6 +190,7 @@ Chạy checklist này cho MỌI bài trước khi coi là hoàn thành:
 - [ ] **Chân thật & chính xác:** không bịa đặt, không suy diễn quá dữ liệu, không sai lệch; dữ kiện quan trọng đã xác thực qua ≥ 2 nguồn độc lập.
 - [ ] **Đã phân biệt** sự thật (có nguồn) / suy luận / quan điểm cá nhân; nêu rõ mức độ chắc chắn khi thông tin chưa chắc.
 - [ ] **API/thư viện/hàm** được nhắc tới đều tồn tại thật (không phải AI bịa).
+- [ ] **Số liệu & phiên bản trình bày rõ:** số lớn không nhập nhằng dấu phân cách, có đơn vị; code phụ thuộc phiên bản đã ghi rõ (và ghim phiên bản/digest thay vì tag trôi nổi).
 - [ ] **Thông tin mới nhất tại thời điểm viết:** phiên bản/giá/tính năng/số liệu đã tra cứu lại (web search), không dựa vào trí nhớ model; mọi mốc thời gian đã đối chiếu với ngày viết hiện tại.
 - [ ] **Không đạo văn:** nội dung viết bằng lời của mình; trích nguyên văn (nếu có) để trong ngoặc kép + dẫn nguồn; code mượn có ghi nguồn/kiểm tra license.
 - [ ] Không có từ marketing sáo rỗng.
@@ -207,6 +215,7 @@ Chạy checklist này cho MỌI bài trước khi coi là hoàn thành:
 - **Dựa vào một nguồn duy nhất** cho dữ kiện quan trọng mà không đối chiếu.
 - **Dùng thông tin lỗi thời từ trí nhớ model** ("phiên bản mới nhất là X") mà không tra cứu lại tại thời điểm viết.
 - **Gọi thứ đã cũ là "mới nhất"** hoặc mô tả tình trạng đã thay đổi mà không đối chiếu ngày hiện tại.
+- **Số lớn nhập nhằng dấu phân cách / thiếu đơn vị** ("1.160" không rõ 1,16 hay 1160); dùng tag trôi nổi (`latest`) trong ví dụ code phụ thuộc phiên bản mà không ghi phiên bản thật.
 - Nhồi từ khóa đến mức đọc gượng.
 - Kết bài chung chung ("Hy vọng bài viết hữu ích") mà không có takeaway cụ thể.
 - **Bài mỏng không giá trị gốc** — chỉ tóm tắt/diễn đạt lại nguồn khác (rủi ro bị Google coi là scaled content abuse).

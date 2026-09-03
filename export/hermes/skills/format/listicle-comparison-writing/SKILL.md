@@ -69,6 +69,7 @@ Chọn **tiêu chí thật sự quan trọng với quyết định**, đo đư�
 ```
 
 - **Mọi số liệu kèm nguồn và điều kiện đo** (theo `blog-foundations`). Không bịa benchmark.
+- **Tuyên bố tính năng cũng cần nguồn, không chỉ số liệu.** Khi khẳng định "X hỗ trợ Y", "Y không có Z", hay mô tả hành vi/khả năng của một công cụ, dẫn tới **tài liệu chính thức** của công cụ đó (`[docs X](url)`). Đây là chỗ bài so sánh hay bỏ sót: bảng đầy tuyên bố tính năng nhưng không một link nào. Tính năng thay đổi theo phiên bản, nên nguồn chính thức vừa chống sai vừa chống lỗi thời.
 - **So sánh công bằng:** cùng điều kiện, cùng phiên bản (ghi rõ, kiểm tra bản mới nhất).
 - **Trung lập:** nêu cả điểm mạnh/yếu của mỗi bên; không dìm một bên để tôn bên kia.
 
@@ -84,6 +85,7 @@ Ngoài checklist của `blog-foundations`, kiểm thêm:
 - [ ] (Listicle) Nêu rõ tiêu chí đưa vào danh sách; thứ tự có logic.
 - [ ] (Comparison) Có verdict nhanh ở đầu và bảng so sánh theo tiêu chí đo được.
 - [ ] Mọi số liệu/benchmark có nguồn + điều kiện đo; phiên bản đã kiểm tra mới nhất.
+- [ ] (Comparison) Tuyên bố tính năng/khả năng có link tài liệu chính thức, không chỉ số liệu mới cần nguồn.
 - [ ] Trung lập, nêu cả ưu và nhược của mỗi lựa chọn.
 - [ ] Kết luận là khuyến nghị theo ngữ cảnh, không phán "tốt nhất" tuyệt đối.
 - [ ] Mỗi mục/bên có giá trị gốc, không chép mô tả marketing.
@@ -93,5 +95,6 @@ Ngoài checklist của `blog-foundations`, kiểm thêm:
 - Nhồi mục cho đủ con số trong tiêu đề → thin content.
 - So sánh thiên vị (thường gặp ở bài tiếp thị trá hình).
 - Bịa benchmark hoặc so sánh khác phiên bản/điều kiện.
+- **Bảng đầy tuyên bố tính năng nhưng không link tài liệu chính thức nào** — người đọc phải tin lời tác giả, và tính năng dễ lỗi thời.
 - Kết luận "X là tốt nhất" mà không nêu ngữ cảnh.
 - Chép mô tả từ trang chủ sản phẩm thay vì đánh giá thật.
