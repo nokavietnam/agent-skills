@@ -83,6 +83,7 @@ Nếu phát hiện rủi ro spam, trong đề xuất hãy chỉ cách **thêm gi
 - **Bài dịch không dẫn nguồn gốc** — nội dung là bản dịch một bài nước ngoài mà không ghi nguồn → 🔴.
 - **Code mượn không ghi nguồn / không rõ license** — đoạn code đặc thù giống nguồn công khai nhưng không ghi công, hoặc dùng code có license ràng buộc mà không tuân thủ → 🔴 (rủi ro bản quyền).
 - **Trích dẫn hợp lệ nhưng quá dài** — trích nguyên văn cả đoạn dù có dẫn nguồn → 🟡 (nên rút gọn và diễn đạt lại).
+- **URL nguồn nghi bịa** — link trong "Nguồn tham khảo"/inline trông hợp lý nhưng có thể do AI tự chế (blog/Medium/tài liệu không có thật, đường dẫn ghép từ tiêu đề). Kiểm bằng web fetch/search; link không tồn tại hoặc không dẫn tới nội dung được viện dẫn → 🔴 (ngụy trang thông tin sai thành có nguồn). Đề xuất: thay bằng link đã kiểm tra hoặc dẫn tên nguồn chính thức, không bịa đường dẫn.
 
 Khi báo lỗi đạo văn, chỉ rõ đoạn nghi vấn + nguồn (nếu tìm được) và đề xuất: viết lại bằng lời khác, hoặc chuyển thành trích dẫn có ngoặc kép + dẫn nguồn.
 

@@ -152,6 +152,7 @@ Có người biên tập chịu trách nhiệm cuối trước khi đăng. Nếu
 - **Không bịa số liệu, benchmark, ngày tháng, tên phiên bản, hay tuyên bố của công ty.** Nếu không chắc, dùng web search để kiểm chứng, hoặc ghi rõ là ước lượng/quan điểm.
 - Mọi số liệu, phát biểu, "theo nghiên cứu..." đều phải kèm **nguồn có link**.
 - Trích dẫn nguồn dạng inline: `[tên nguồn](url)`, và gom lại ở mục "Nguồn tham khảo" cuối bài.
+- **Chỉ dẫn URL đã kiểm tra là tồn tại thật — TUYỆT ĐỐI không tự chế link nghe hợp lý.** AI rất hay bịa URL trông đúng (`example.com/blog/tên-bài-hợp-lý`, tài khoản Medium/blog không có thật) cho mục "Nguồn tham khảo". Mỗi link phải là trang bạn thực sự truy được (kiểm bằng web search/fetch). Nếu không xác nhận được URL, dẫn tên nguồn/tài liệu chính thức mà không bịa đường dẫn, hoặc bỏ. Link bịa còn tệ hơn không có link — nó ngụy trang thông tin sai thành có nguồn.
 - **Không copy nguyên văn** quá 1–2 câu từ một nguồn. Diễn đạt lại bằng lời của mình và dẫn nguồn.
 - Phân biệt rõ **sự thật** (có nguồn) và **quan điểm cá nhân** (ghi "theo mình", "kinh nghiệm cho thấy").
 - Với thông tin có thể thay đổi (giá, phiên bản, tính năng), ghi rõ mốc thời gian: "tính đến tháng 9/2026".
@@ -187,6 +188,7 @@ Chạy checklist này cho MỌI bài trước khi coi là hoàn thành:
 - [ ] Cấu trúc H2/H3 rõ ràng, không nhảy cấp.
 - [ ] Mọi code block có khai báo ngôn ngữ và chạy được / gần chạy được.
 - [ ] Mọi số liệu và tuyên bố đều có nguồn dẫn.
+- [ ] **Mọi URL nguồn đã kiểm tra tồn tại thật** (không phải link tự chế nghe hợp lý); nếu không xác nhận được thì dẫn tên nguồn chính thức thay vì bịa đường dẫn.
 - [ ] **Chân thật & chính xác:** không bịa đặt, không suy diễn quá dữ liệu, không sai lệch; dữ kiện quan trọng đã xác thực qua ≥ 2 nguồn độc lập.
 - [ ] **Đã phân biệt** sự thật (có nguồn) / suy luận / quan điểm cá nhân; nêu rõ mức độ chắc chắn khi thông tin chưa chắc.
 - [ ] **API/thư viện/hàm** được nhắc tới đều tồn tại thật (không phải AI bịa).
@@ -222,3 +224,4 @@ Chạy checklist này cho MỌI bài trước khi coi là hoàn thành:
 - **Tiêu đề clickbait** hứa hẹn quá nội dung thực tế.
 - **Nội dung lạc ý định tìm kiếm** — người đọc gõ A nhưng bài lái sang B.
 - **Đạo văn** — chép nguyên văn / đổi vài từ / dịch lại nguồn khác mà không dẫn nguồn; dùng code có license mà không ghi công.
+- **Bịa URL nguồn** — tự chế link nghe hợp lý (blog/Medium/tài liệu không có thật) cho mục "Nguồn tham khảo" thay vì dẫn link đã kiểm tra tồn tại.
