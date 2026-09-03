@@ -11,6 +11,26 @@ Chủ đề bao phủ: tin tức AI, kỹ thuật Backend, tips lập trình v�
 - **Chuẩn mở Agent Skills** (`SKILL.md` + front-matter `name`/`description`) — tự kích hoạt khi yêu cầu khớp mô tả.
 - **Xuất sang 4 agent**: Claude Code, Google Antigravity, Hermes, Codex.
 
+## Cài đặt nhanh
+
+Để cả nhóm cùng dùng, cài bộ skill thẳng vào AI agent của bạn (Kiro, Claude Code, Antigravity, Hermes, Codex). Cần **Node.js** và chạy từ gốc repo:
+
+```powershell
+# Windows (PowerShell)
+.\install.ps1 -List                          # xem agent & skill có thể cài
+.\install.ps1 -Agent claude -Scope global    # cài toàn cục cho Claude Code
+```
+
+```bash
+# macOS / Linux
+./install.sh --list
+./install.sh --agent claude --scope global
+```
+
+Cài cho tất cả agent một lần: `node scripts/install-skills.mjs --agent all --scope global`.
+
+Hướng dẫn đầy đủ (chọn agent, project vs global scope, `--force`, `--dry-run`) xem tại [`INSTALL.md`](INSTALL.md).
+
 ## Cấu trúc thư mục
 
 ```
@@ -26,8 +46,12 @@ agent-skills/
 │   ├── antigravity/   # Antigravity  → .agent/skills/<name>/SKILL.md + skills.md
 │   ├── hermes/        # Hermes       → skills/<category>/<name>/SKILL.md
 │   └── codex/         # Codex        → AGENTS.md + .codex/skills/<name>/SKILL.md
-└── scripts/
-    └── export-skills.mjs   # Sinh lại toàn bộ export/ (Node stdlib)
+├── scripts/
+│   ├── export-skills.mjs   # Sinh lại toàn bộ export/ (Node stdlib)
+│   └── install-skills.mjs  # Cài skill thẳng vào agent (Node stdlib)
+├── install.ps1             # Wrapper cài đặt cho Windows (PowerShell)
+├── install.sh              # Wrapper cài đặt cho macOS/Linux (bash)
+└── INSTALL.md              # Hướng dẫn cài đặt đầy đủ
 ```
 
 ## Danh sách skill
