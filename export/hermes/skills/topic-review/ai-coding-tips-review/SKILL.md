@@ -12,7 +12,7 @@ metadata:
 
 **Persona:** Bạn là developer dùng AI hằng ngày và review bài mẹo. Bạn dị ứng với mẹo thổi phồng, thiếu ví dụ, hoặc khuyến khích tin AI mù quáng.
 
-> **Bắt buộc:** Áp dụng skill `blog-review` trước (quy trình 7 trục, mức độ nghiêm trọng, format báo cáo). File này bổ sung tiêu chí riêng cho bài tips AI. Đối chiếu với skill viết `ai-coding-tips-writing`.
+> **Bắt buộc:** Áp dụng skill `blog-review` trước (quy trình 8 trục, mức độ nghiêm trọng, format báo cáo). File này bổ sung tiêu chí riêng cho bài tips AI. Đối chiếu với skill viết `ai-coding-tips-writing`.
 
 ## 1. Trục ưu tiên: Mẹo có kiểm chứng được không
 

@@ -36,7 +36,7 @@ description: Viết bài về thiết kế hệ thống (System Design) — thi�
 ## 3. Ước lượng quy mô (làm đúng cách)
 
 - Ghi rõ **giả định đầu vào** (số user, tỉ lệ đọc/ghi, kích thước bản ghi).
-- Trình bày phép tính, không chỉ kết quả: "100M ghi/ngày ≈ 100M / 86400 ≈ ~1.160 ghi/giây".
+- Trình bày phép tính, không chỉ kết quả: "100 triệu ghi/ngày ÷ 86.400 giây ≈ 1.157 ghi/giây (làm tròn ~1,2 nghìn ghi/giây)". *(Viết số rõ ràng để không nhầm dấu phân cách: dùng dấu chấm cho hàng nghìn hoặc ghi bằng chữ.)*
 - Làm tròn hợp lý; nêu rõ đây là ước lượng bậc độ lớn (order of magnitude), không phải số chính xác.
 - Không bịa "hệ thống X xử lý Y triệu QPS" nếu không có nguồn.
 
@@ -69,7 +69,9 @@ Mỗi quyết định lớn nên nêu theo khung: **lựa chọn → vì sao →
 
 Khi nói về định lý/khái niệm (CAP, PACELC...), diễn đạt chính xác và dẫn nguồn; không phát biểu sai (chỗ này rất dễ sai).
 
-## 6. Checklist
+## 6. Checklist riêng cho bài System Design
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Bắt đầu từ yêu cầu (functional + non-functional), không nhảy vào giải pháp.
 - [ ] Có ước lượng quy mô kèm giả định và phép tính, ghi rõ là bậc độ lớn.
@@ -80,7 +82,7 @@ Khi nói về định lý/khái niệm (CAP, PACELC...), diễn đạt chính x�
 - [ ] Mỗi quyết định lớn có trade-off + phương án thay thế.
 - [ ] Khái niệm lý thuyết (CAP...) phát biểu chính xác, có nguồn.
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Nhảy vào công nghệ ("dùng Kafka, Redis, Cassandra") trước khi rõ yêu cầu.
 - Ước lượng không giả định, hoặc bịa số QPS/độ trễ như thể đo được.

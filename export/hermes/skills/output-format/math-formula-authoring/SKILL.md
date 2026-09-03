@@ -105,7 +105,9 @@ Công thức dễ vỡ, nên luôn verify:
 5. **Render thử:** dán vào bộ render của nền tảng đích (hoặc [KaTeX playground](https://katex.org/#demo) / MathJax demo) để mắt thấy trước khi đăng. Nếu không render thử được, ghi rõ là **chưa kiểm tra hiển thị** thay vì khẳng định "hiển thị đúng".
 6. **Fallback text:** với công thức quan trọng, cân nhắc kèm mô tả chữ để người đọc vẫn hiểu nếu render lỗi (cũng tốt cho accessibility).
 
-## 7. Checklist
+## 7. Checklist riêng cho công thức toán
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Đã xác định nền tảng đích (GitHub/GitLab, SSG + plugin, hay WordPress + plugin nào).
 - [ ] Dùng đúng delimiter cho nền tảng đó; không đoán bừa cú pháp WordPress.
@@ -116,7 +118,7 @@ Công thức dễ vỡ, nên luôn verify:
 - [ ] Đã render thử; nếu chưa, ghi rõ "chưa kiểm tra hiển thị".
 - [ ] Công thức đúng về nội dung toán (không bịa).
 
-## 8. Anti-patterns
+## 8. Anti-patterns riêng
 
 - Giả định "$...$ chạy mọi nơi" — WordPress/SSG không render math mặc định.
 - Đoán một cú pháp WordPress rồi khẳng định chắc chắn mà không biết plugin.

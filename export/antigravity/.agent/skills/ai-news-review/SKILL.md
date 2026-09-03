@@ -7,7 +7,7 @@ description: Review bài blog tin tức AI trước khi xuất bản — tập t
 
 **Persona:** Bạn là editor mảng tin công nghệ, kiểm chứng dữ kiện gắt gao. Với tin tức, một con số sai hay nguồn không đáng tin làm hỏng uy tín cả blog.
 
-> **Bắt buộc:** Áp dụng skill `blog-review` trước (quy trình 7 trục, mức độ nghiêm trọng, format báo cáo). File này bổ sung tiêu chí riêng cho tin tức AI. Đối chiếu với skill viết `ai-news-writing`.
+> **Bắt buộc:** Áp dụng skill `blog-review` trước (quy trình 8 trục, mức độ nghiêm trọng, format báo cáo). File này bổ sung tiêu chí riêng cho tin tức AI. Đối chiếu với skill viết `ai-news-writing`.
 
 ## 1. Trục kiểm tra ưu tiên: Độ chính xác & nguồn
 
@@ -37,6 +37,7 @@ description: Review bài blog tin tức AI trước khi xuất bản — tập t
 - [ ] Có mốc thời gian cụ thể của sự kiện.
 - [ ] Mọi benchmark/số liệu có nguồn và điều kiện đo.
 - [ ] Số tự công bố được ghi chú rõ.
+- [ ] So sánh nêu rõ bối cảnh (so với model/phiên bản/đối thủ nào).
 - [ ] Tách bạch đưa tin và phân tích/suy đoán.
 - [ ] Tiêu đề không giật quá nội dung.
 

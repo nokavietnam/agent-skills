@@ -47,6 +47,10 @@ const CATEGORY = {
   "behavioral-interview-review": "interview-design-review",
   "tutorial-writing": "format",
   "listicle-comparison-writing": "format",
+  "image-diagram-authoring": "craft",
+  "code-snippet-standards": "craft",
+  "image-diagram-review": "craft-review",
+  "code-snippet-review": "craft-review",
   "wordpress-publishing": "output-format",
   "markdown-authoring": "output-format",
   "math-formula-authoring": "output-format",
@@ -135,6 +139,8 @@ const CATEGORY_LABEL = {
   "topic-review": "Review theo chủ đề",
   "interview-design-review": "Review phỏng vấn & thiết kế",
   format: "Dạng bài",
+  craft: "Chuẩn trình bày (hình ảnh & code)",
+  "craft-review": "Review trình bày (hình ảnh & code)",
   "output-format": "Định dạng đầu ra",
   misc: "Khác",
 };
@@ -146,6 +152,8 @@ const CATEGORY_ORDER = [
   "topic-review",
   "interview-design-review",
   "format",
+  "craft",
+  "craft-review",
   "output-format",
   "misc",
 ];

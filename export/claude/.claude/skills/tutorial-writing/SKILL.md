@@ -48,7 +48,9 @@ Từ khóa dạng "cách...", "how to...", "hướng dẫn..." có intent inform
 - Ảnh minh họa mỗi bước quan trọng, có alt text mô tả hành động.
 - Internal link tới bài giải thích khái niệm nền (cluster) để người mới không bí.
 
-## 6. Checklist
+## 6. Checklist riêng cho bài tutorial
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Có Prerequisites ghi rõ phiên bản (đã kiểm tra bản mới nhất).
 - [ ] Cho xem kết quả cuối ở đầu bài.
@@ -59,7 +61,7 @@ Từ khóa dạng "cách...", "how to...", "hướng dẫn..." có intent inform
 - [ ] Cảnh báo cho lệnh phá hủy; không hardcode secret.
 - [ ] Có bước tiếp theo + link nội bộ tới bài liên quan.
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Nhảy bước, giả định người đọc biết trước.
 - Code không nói đặt ở đâu, hoặc chưa chạy thử.

@@ -61,7 +61,9 @@ Cho thấy khác biệt cụ thể (đánh dấu là ví dụ mẫu):
 - ❌ **Yếu:** "Team gặp deadline gấp và chúng tôi đã cố gắng hoàn thành." (chung chung, không có "tôi", không kết quả).
 - ✅ **Mạnh (STAR):** *Situation:* dự án chậm 1 tuần trước release. *Task:* tôi phụ trách module thanh toán còn dang dở. *Action:* tôi cắt phạm vi xuống luồng cốt lõi, viết lại 2 test flaky, pair với 1 bạn để xong phần refund. *Result:* kịp release, module chạy ổn, sau đó tôi đề xuất quy trình cắt phạm vi để tránh lặp lại.
 
-## 6. Checklist
+## 6. Checklist riêng cho bài behavioral
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Nhấn mạnh chân thật: dạy kể chuyện thật, không bịa thành tích.
 - [ ] Giải thích STAR đầy đủ 4 phần kèm ví dụ.
@@ -72,7 +74,7 @@ Cho thấy khác biệt cụ thể (đánh dấu là ví dụ mẫu):
 - [ ] Có nhóm câu hỏi thường gặp + điều nhà tuyển dụng muốn thấy.
 - [ ] Có cách chuẩn bị (kho câu chuyện).
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Khuyến khích bịa câu chuyện/thành tích (dễ lộ khi bị hỏi sâu).
 - Câu trả lời mẫu chung chung, không "tôi", không kết quả.

@@ -73,7 +73,9 @@ Skill này kết thúc bằng một **brief** để chuyển sang skill viết:
 - **Nguồn cần tham khảo:** ...
 ```
 
-## 6. Checklist
+## 6. Checklist riêng cho nghiên cứu ý tưởng & SEO
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Từ khóa xuất phát từ nhu cầu tìm kiếm thật (kiểm qua autocomplete/PAA/forum), không tự nghĩ.
 - [ ] Đã xác định search intent và chọn dạng bài khớp intent.
@@ -82,7 +84,7 @@ Skill này kết thúc bằng một **brief** để chuyển sang skill viết:
 - [ ] Bài gắn vào một topic cluster, có kế hoạch link nội bộ.
 - [ ] Đã xuất Content Brief đầy đủ để chuyển cho skill viết.
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Chọn chủ đề theo cảm hứng cá nhân mà không kiểm nhu cầu tìm kiếm.
 - Nhắm từ khóa ngắn cạnh tranh cao khi blog còn mới/yếu thẩm quyền.

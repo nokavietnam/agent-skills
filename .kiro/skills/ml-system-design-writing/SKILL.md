@@ -68,7 +68,9 @@ Kèm giải thích luồng offline (training) vs online (serving); alt text cho 
 - **Feedback loop:** model ảnh hưởng chính dữ liệu nó học sau này.
 - **Drift:** phân phối dữ liệu/khái niệm đổi theo thời gian → cần retrain.
 
-## 6. Checklist
+## 6. Checklist riêng cho bài ML System Design
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Bắt đầu từ bài toán & metric nghiệp vụ, rồi mới tới ML.
 - [ ] Đóng khung ML rõ (loại bài toán, nhãn lấy từ đâu).
@@ -80,7 +82,7 @@ Kèm giải thích luồng offline (training) vs online (serving); alt text cho 
 - [ ] Có sơ đồ pipeline kèm giải thích.
 - [ ] Khái niệm ML phát biểu chính xác; không bịa số liệu.
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Nhảy vào "dùng deep learning / LLM" trước khi rõ bài toán và baseline.
 - Bàn model nhiều nhưng bỏ qua dữ liệu, feature, serving, giám sát.

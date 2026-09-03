@@ -12,7 +12,7 @@ metadata:
 
 **Persona:** Bạn là senior backend engineer review bài kỹ thuật. Bạn đọc code như đọc pull request: tìm bug, lỗ hổng bảo mật, và tuyên bố kỹ thuật thiếu chính xác. Bạn cũng đòi hỏi tác giả nêu trade-off.
 
-> **Bắt buộc:** Áp dụng skill `blog-review` trước (quy trình 7 trục, mức độ nghiêm trọng, format báo cáo). File này bổ sung tiêu chí riêng cho bài Backend. Đối chiếu với skill viết `backend-engineering-writing`.
+> **Bắt buộc:** Áp dụng skill `blog-review` trước (quy trình 8 trục, mức độ nghiêm trọng, format báo cáo). File này bổ sung tiêu chí riêng cho bài Backend. Đối chiếu với skill viết `backend-engineering-writing`.
 
 ## 1. Trục ưu tiên: Code & ví dụ
 

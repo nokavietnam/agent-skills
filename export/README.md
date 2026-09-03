@@ -7,7 +7,7 @@ Thư mục này được **sinh tự động** từ `.kiro/skills/` bằng `scri
 node scripts/export-skills.mjs
 ```
 
-Tổng số skill xuất ra: **26**. Cả 4 định dạng đều dựa trên chuẩn mở
+Tổng số skill xuất ra: **30**. Cả 4 định dạng đều dựa trên chuẩn mở
 **Agent Skills** (`SKILL.md` + front-matter `name`/`description`), khác nhau ở
 vị trí thư mục và (với Codex) có thêm `AGENTS.md` tổng hợp.
 
@@ -37,7 +37,7 @@ Claude tự nạp skill khi mô tả khớp, hoặc gọi `/<name>`.
 ### Nền tảng (dùng trước tiên)
 
 - `blog-foundations` — Nền tảng dùng chung cho mọi bài blog kỹ thuật — giọng văn, cấu trúc bài, chuẩn SEO, quy tắc trích dẫn nguồn, và formatting Markdown. Kích hoạt skill này TRƯỚC khi viết bất kỳ bài blog nào (tin tức AI, kỹ thuật Backend, tips lập trình với AI). Các skill viết chuyên biệt đều kế thừa các quy tắc ở đây.
-- `blog-review` — Nền tảng review bài blog kỹ thuật trước khi xuất bản — quy trình review, tiêu chí chấm, phân loại mức độ nghiêm trọng của lỗi, và format báo cáo review chuẩn. Kích hoạt khi người dùng muốn review, biên tập, kiểm tra, hoặc góp ý một bài blog. Các skill review chuyên biệt (tin tức, Backend, tips AI) kế thừa từ đây.
+- `blog-review` — Nền tảng review bài blog kỹ thuật trước khi xuất bản — quy trình review, tiêu chí chấm, phân loại mức độ nghiêm trọng của lỗi, và format báo cáo review chuẩn. Kích hoạt khi người dùng muốn review, biên tập, kiểm tra, hoặc góp ý một bài blog. Mọi skill review chuyên biệt (tin tức AI, Backend, tips AI, System Design, LLD, DSA, ML System Design, behavioral) kế thừa từ đây.
 
 ### Chiến lược & SEO
 
@@ -77,6 +77,16 @@ Claude tự nạp skill khi mô tả khớp, hoặc gọi `/<name>`.
 
 - `listicle-comparison-writing` — Viết bài dạng danh sách (listicle "N cách/công cụ/mẹo...") và bài so sánh (comparison "X vs Y") cho blog kỹ thuật — cấu trúc mỗi mục nhất quán, tiêu chí so sánh khách quan, bảng so sánh, và khuyến nghị theo ngữ cảnh. Kích hoạt khi người dùng muốn viết listicle, roundup, hoặc so sánh công nghệ/công cụ. Kế thừa quy tắc từ blog-foundations.
 - `tutorial-writing` — Viết bài hướng dẫn từng bước (how-to / tutorial) cho blog kỹ thuật — cấu trúc theo bước, phần prerequisites, code chạy được và kiểm chứng, xử lý lỗi thường gặp, và tối ưu để xếp hạng cho từ khóa "cách/how to". Kích hoạt khi người dùng muốn viết hướng dẫn, tutorial, hoặc bài how-to. Kế thừa quy tắc từ blog-foundations.
+
+### Chuẩn trình bày (hình ảnh & code)
+
+- `code-snippet-standards` — Chuẩn trình bày đoạn code trong bài blog kỹ thuật — khai báo ngôn ngữ, code chạy được vs minh họa, độ dài & cắt gọn hợp lý, tên file/đường dẫn, hiển thị output & diff, và ghi công code mượn (license). Kích hoạt khi bài có nhiều code block cần trình bày chuẩn và nhất quán. Kế thừa quy tắc từ blog-foundations.
+- `image-diagram-authoring` — Chuẩn cho hình ảnh, ảnh chụp màn hình và sơ đồ trong bài blog kỹ thuật — alt text đúng cách, caption, sơ đồ dạng code (Mermaid/PlantUML), chọn định dạng & nén ảnh (WebP/PNG/SVG), và bản quyền/ghi công ảnh. Kích hoạt khi bài cần chèn ảnh, screenshot, hoặc sơ đồ kiến trúc/luồng. Kế thừa quy tắc từ blog-foundations.
+
+### Review trình bày (hình ảnh & code)
+
+- `code-snippet-review` — Review cách trình bày đoạn code trong bài blog kỹ thuật trước khi xuất bản — soi khai báo ngôn ngữ, code chạy được vs minh họa, độ dài & dòng quá dài, output/diff đúng thực tế, secret hardcode, và ghi công code mượn (license). Kích hoạt khi người dùng muốn review phần code block trình bày của một bài. Kế thừa quy trình từ skill blog-review.
+- `image-diagram-review` — Review hình ảnh, ảnh chụp màn hình và sơ đồ trong bài blog kỹ thuật trước khi xuất bản — soi alt text, tính đúng của sơ đồ so với hệ thống thật, che thông tin nhạy cảm trong screenshot, định dạng/nén ảnh, và bản quyền/ghi công. Kích hoạt khi người dùng muốn review phần hình ảnh/sơ đồ của một bài. Kế thừa quy trình từ skill blog-review.
 
 ### Định dạng đầu ra
 

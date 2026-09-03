@@ -35,9 +35,11 @@ description: Review bài blog thiết kế hệ thống ML (ML System Design) tr
 - Có kế hoạch **giám sát drift & retraining** không? Thiếu → 🟡.
 - Có bịa số accuracy/latency như đo được không? → 🔴 (phải ghi rõ khi là ví dụ minh họa).
 
-## 5. Sơ đồ & checklist riêng (thêm vào checklist blog-review)
+## 5. Sơ đồ pipeline
 
 - Có **sơ đồ pipeline** (Mermaid) phân biệt luồng offline vs online, kèm giải thích và alt text không? Thiếu → 🟡.
+
+## 6. Checklist riêng (thêm vào checklist blog-review)
 
 - [ ] Bắt đầu từ bài toán & metric nghiệp vụ, rồi mới tới ML.
 - [ ] Đóng khung ML rõ (loại bài toán, nhãn lấy từ đâu).
@@ -50,6 +52,6 @@ description: Review bài blog thiết kế hệ thống ML (ML System Design) tr
 - [ ] Sơ đồ pipeline khớp mô tả, có alt text.
 - [ ] Khái niệm ML phát biểu chính xác; không bịa số liệu.
 
-## 6. Lưu ý xuất báo cáo
+## 7. Lưu ý xuất báo cáo
 
 Với rủi ro **data leakage** hoặc **training–serving skew**, chỉ rõ **feature/luồng cụ thể** gây rủi ro và cách phòng. Với lỗi metric, nêu metric phù hợp hơn cho bài toán đó và vì sao. Đừng cho qua định nghĩa metric chỉ vì nghe quen — kiểm lại phát biểu.

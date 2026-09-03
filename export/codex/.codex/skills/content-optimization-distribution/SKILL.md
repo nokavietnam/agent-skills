@@ -54,7 +54,9 @@ Bài kỹ thuật lỗi thời nhanh; bài từng top có thể tụt vì thông
 
 > Repurpose (chuyển bài thành thread/newsletter/slide) giúp một nội dung chạm nhiều kênh. Giữ thông điệp và độ chính xác nhất quán với bài gốc.
 
-## 6. Checklist
+## 6. Checklist riêng cho tối ưu & phân phối
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Đã ưu tiên refresh bài cũ có tiềm năng trước khi chỉ viết bài mới.
 - [ ] Refresh có thêm giá trị thật (không chỉ đổi năm).
@@ -64,7 +66,7 @@ Bài kỹ thuật lỗi thời nhanh; bài từng top có thể tụt vì thông
 - [ ] Cross-post có canonical về bài gốc.
 - [ ] Phân phối đúng cộng đồng, không spam.
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Chỉ viết bài mới, bỏ mặc bài cũ đang tụt (bỏ lỡ đòn bẩy lớn nhất).
 - "Refresh" chỉ đổi năm tiêu đề mà không cải thiện nội dung.

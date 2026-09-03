@@ -36,6 +36,14 @@ Bộ skills giúp AI trở thành người viết blog kỹ thuật chuyên nghi
 │   └── SKILL.md
 ├── listicle-comparison-writing/  # Dạng bài danh sách & so sánh
 │   └── SKILL.md
+├── image-diagram-authoring/      # Chuẩn hình ảnh & sơ đồ
+│   └── SKILL.md
+├── image-diagram-review/         # Review hình ảnh & sơ đồ
+│   └── SKILL.md
+├── code-snippet-standards/       # Chuẩn trình bày đoạn code
+│   └── SKILL.md
+├── code-snippet-review/          # Review cách trình bày code
+│   └── SKILL.md
 ├── content-optimization-distribution/  # Tối ưu bài cũ & phân phối (sau khi viết)
 │   └── SKILL.md
 ├── system-design-writing/        # Viết bài System Design
@@ -114,6 +122,17 @@ Bao khâu **trước** và **sau** khi viết — nơi phần lớn traffic đư
 | `tutorial-writing` | Bài hướng dẫn từng bước (how-to) | Prerequisites, kết quả cuối ở đầu, bước đánh số, code kiểm chứng, bước Verify, troubleshooting, HowTo schema |
 | `listicle-comparison-writing` | Bài "N cách/công cụ" & so sánh "X vs Y" | Format mục nhất quán, tiêu chí khách quan, bảng so sánh có nguồn, khuyến nghị theo ngữ cảnh |
 
+## Skill chuẩn trình bày (hình ảnh & code)
+
+Chuẩn hóa hai thành phần xuất hiện trong hầu hết bài kỹ thuật: **hình ảnh/sơ đồ** và **đoạn code**. Áp dụng chồng lên skill chủ đề; mỗi skill có review đi kèm.
+
+| Skill | Dùng khi nào | Nội dung chính |
+| --- | --- | --- |
+| `image-diagram-authoring` | Bài cần ảnh, screenshot, hoặc sơ đồ kiến trúc/luồng | Alt text đúng cách, caption, sơ đồ dạng code (Mermaid/PlantUML), tính đúng của sơ đồ, che thông tin nhạy cảm, định dạng/nén ảnh (SVG/WebP), bản quyền/ghi công |
+| `image-diagram-review` | Review phần hình ảnh/sơ đồ của bài | Soi alt text, sơ đồ khớp hệ thống thật & đúng chiều, screenshot lộ thông tin nhạy cảm, định dạng/nén, bản quyền |
+| `code-snippet-standards` | Bài có nhiều code block cần trình bày chuẩn | Khai báo ngôn ngữ, code chạy được vs minh họa, độ dài & cắt gọn, tên file/đường dẫn, output & diff, không hardcode secret, ghi công code mượn |
+| `code-snippet-review` | Review cách trình bày code của bài | Soi khai báo ngôn ngữ, code minh họa bị tưởng chạy được, output bịa, secret hardcode, dòng quá dài, ghi công code mượn/license |
+
 ## Skill chủ đề phỏng vấn & thiết kế
 
 Chủ đề nặng lý thuyết, đánh đổi và chuẩn bị phỏng vấn. Áp dụng chồng lên `blog-foundations`; có thể kết hợp với skill dạng bài.
@@ -177,6 +196,12 @@ Chiến lược & SEO:
 Dạng bài:
 - "Viết hướng dẫn từng bước deploy app Go lên Docker" → `tutorial-writing` + `backend-engineering-writing`.
 - "Viết bài so sánh Postgres vs MySQL" → `listicle-comparison-writing` + `backend-engineering-writing`.
+
+Chuẩn trình bày (hình ảnh & code):
+- "Vẽ sơ đồ kiến trúc cho bài này và viết alt text chuẩn" → `image-diagram-authoring`.
+- "Soi lại các sơ đồ và ảnh trong bài trước khi đăng" → `image-diagram-review` + `blog-review`.
+- "Chuẩn hóa các đoạn code trong bài cho nhất quán" → `code-snippet-standards`.
+- "Kiểm tra các code block trong bài có đạt chuẩn không" → `code-snippet-review` + `blog-review`.
 
 Chủ đề phỏng vấn & thiết kế:
 - "Viết bài thiết kế URL shortener" → `system-design-writing`.

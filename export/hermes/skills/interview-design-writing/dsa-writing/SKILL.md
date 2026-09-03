@@ -64,7 +64,9 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 - Với cây/đồ thị/DP, cân nhắc bảng dry-run hoặc sơ đồ (Mermaid/ASCII) để hình dung.
 - Gắn bài vào **pattern lớn hơn** để người đọc nhận ra khi gặp bài tương tự.
 
-## 6. Checklist
+## 6. Checklist riêng cho bài DSA
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Phát biểu bài toán rõ: input/output/constraints + ví dụ.
 - [ ] Có phần trực giác trước khi vào code.
@@ -75,7 +77,7 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 - [ ] Liệt kê edge cases.
 - [ ] Rút ra pattern áp dụng cho bài khác.
 
-## 7. Anti-patterns
+## 7. Anti-patterns riêng
 
 - Đưa code tối ưu ngay mà không có trực giác → người đọc học vẹt.
 - Tuyên bố độ phức tạp không giải thích, hoặc sai (rất mất uy tín).

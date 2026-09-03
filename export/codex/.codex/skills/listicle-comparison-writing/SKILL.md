@@ -71,7 +71,9 @@ Chọn **tiêu chí thật sự quan trọng với quyết định**, đo đư�
 
 Kết luận không phải "X thắng" mà là **"chọn X nếu..., chọn Y nếu..."**. Đây là phần giá trị nhất và là thứ người đọc commercial-intent tìm kiếm.
 
-## 7. Checklist
+## 7. Checklist riêng cho listicle & comparison
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] (Listicle) Format các mục nhất quán; không nhồi mục yếu cho đủ số.
 - [ ] (Listicle) Nêu rõ tiêu chí đưa vào danh sách; thứ tự có logic.
@@ -81,7 +83,7 @@ Kết luận không phải "X thắng" mà là **"chọn X nếu..., chọn Y n�
 - [ ] Kết luận là khuyến nghị theo ngữ cảnh, không phán "tốt nhất" tuyệt đối.
 - [ ] Mỗi mục/bên có giá trị gốc, không chép mô tả marketing.
 
-## 8. Anti-patterns
+## 8. Anti-patterns riêng
 
 - Nhồi mục cho đủ con số trong tiêu đề → thin content.
 - So sánh thiên vị (thường gặp ở bài tiếp thị trá hình).

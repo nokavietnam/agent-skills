@@ -70,7 +70,9 @@ Kèm giải thích quan hệ; alt text cho ảnh tĩnh.
 - Chỉ ra thiết kế tuân nguyên tắc SOLID ở đâu (đặc biệt SRP và OCP — mở để mở rộng, đóng để sửa đổi).
 - **Bài kiểm tra mở rộng:** nêu một yêu cầu mới (loại xe mới, cách tính phí mới) và cho thấy thiết kế thêm vào dễ hay khó. Đây là phần cho thấy chất lượng thiết kế.
 
-## 7. Checklist
+## 7. Checklist riêng cho bài LLD
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Bắt đầu từ yêu cầu & use case, không vẽ class trước.
 - [ ] Có class diagram (Mermaid) kèm giải thích quan hệ.
@@ -80,7 +82,7 @@ Kèm giải thích quan hệ; alt text cho ảnh tĩnh.
 - [ ] Chỉ ra tuân SOLID; có bài kiểm tra mở rộng.
 - [ ] Có trade-off & phương án thay thế.
 
-## 8. Anti-patterns
+## 8. Anti-patterns riêng
 
 - Vẽ class diagram trước khi rõ yêu cầu.
 - Nhồi design pattern để "trông chuyên nghiệp".

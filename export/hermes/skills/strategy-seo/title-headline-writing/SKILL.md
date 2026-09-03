@@ -74,7 +74,9 @@ Luôn đưa **3–5 biến thể** tiêu đề để người dùng chọn, kèm
 **Meta description:** ... (155 ký tự)
 ```
 
-## 8. Checklist
+## 8. Checklist riêng cho tiêu đề
+
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Có 3–5 biến thể để chọn.
 - [ ] Meta title ≤ ~60 ký tự, từ khóa chính gần đầu.
@@ -82,7 +84,7 @@ Luôn đưa **3–5 biến thể** tiêu đề để người dùng chọn, kèm
 - [ ] Năm/số liệu trong tiêu đề đã kiểm chứng đúng thời điểm viết.
 - [ ] Có cả tiêu đề hiển thị và meta title khi cần.
 
-## 9. Anti-patterns
+## 9. Anti-patterns riêng
 
 - Tiêu đề chung chung, không từ khóa ("Vài điều về database").
 - Quá dài bị Google cắt cụt.

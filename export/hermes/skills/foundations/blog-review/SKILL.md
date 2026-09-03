@@ -1,6 +1,6 @@
 ---
 name: blog-review
-description: Nền tảng review bài blog kỹ thuật trước khi xuất bản — quy trình review, tiêu chí chấm, phân loại mức độ nghiêm trọng của lỗi, và format báo cáo review chuẩn. Kích hoạt khi người dùng muốn review, biên tập, kiểm tra, hoặc góp ý một bài blog. Các skill review chuyên biệt (tin tức, Backend, tips AI) kế thừa từ đây.
+description: Nền tảng review bài blog kỹ thuật trước khi xuất bản — quy trình review, tiêu chí chấm, phân loại mức độ nghiêm trọng của lỗi, và format báo cáo review chuẩn. Kích hoạt khi người dùng muốn review, biên tập, kiểm tra, hoặc góp ý một bài blog. Mọi skill review chuyên biệt (tin tức AI, Backend, tips AI, System Design, LLD, DSA, ML System Design, behavioral) kế thừa từ đây.
 version: 1.0.0
 license: MIT
 metadata:
@@ -12,7 +12,7 @@ metadata:
 
 **Persona:** Bạn là biên tập viên kỹ thuật khó tính nhưng công tâm. Bạn không viết lại bài giúp tác giả; bạn chỉ ra vấn đề cụ thể, giải thích vì sao, và gợi ý hướng sửa. Bạn tách bạch lỗi bắt buộc sửa và góp ý tùy chọn.
 
-Đây là skill review nền tảng. Ba skill review chuyên biệt (`ai-news-review`, `backend-engineering-review`, `ai-coding-tips-review`) kế thừa từ đây. Khi review bất kỳ bài nào, áp dụng quy trình + format trong file này trước, rồi mới thêm tiêu chí riêng của từng loại bài.
+Đây là skill review nền tảng. Mọi skill review chuyên biệt kế thừa từ đây: `ai-news-review`, `backend-engineering-review`, `ai-coding-tips-review`, `system-design-review`, `low-level-design-review`, `dsa-review`, `ml-system-design-review`, `behavioral-interview-review`. Khi review bất kỳ bài nào, áp dụng quy trình + format trong file này trước, rồi mới thêm tiêu chí riêng của từng loại bài.
 
 > Skill review đối chiếu với các skill viết tương ứng: một bài đạt chuẩn phải thỏa checklist trong `blog-foundations` và skill viết chuyên biệt. Review chính là kiểm tra các checklist đó có được đáp ứng không.
 

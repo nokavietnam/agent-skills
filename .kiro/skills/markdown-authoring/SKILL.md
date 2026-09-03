@@ -108,9 +108,9 @@ Chọn theo flavor:
 - Hỏi/nêu rõ thư mục đích (ví dụ Hugo: `content/posts/`, Docusaurus: `blog/`, Jekyll: `_posts/`).
 - Nếu bài có ảnh, gợi ý cấu trúc thư mục assets đi kèm và cập nhật đường dẫn tương đối cho khớp.
 
-## 8. Checklist xuất Markdown
+## 8. Checklist riêng cho xuất Markdown
 
-Ngoài checklist nội dung của `blog-foundations`:
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Đã chọn đúng flavor + kiểu front-matter (hoặc nêu rõ giả định mặc định).
 - [ ] Front-matter chỉ chứa trường nền tảng đích dùng, cú pháp đúng (YAML/TOML).

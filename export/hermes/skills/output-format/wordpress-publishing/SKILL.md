@@ -128,9 +128,9 @@ curl -X POST "$WP_URL/wp-json/wp/v2/posts" \
 - Categories/tags qua REST cần **ID số**, không phải tên — tra ID qua `/wp-json/wp/v2/categories` và `/tags` trước.
 - Featured image: upload qua `/wp-json/wp/v2/media` trước để lấy `id`, rồi gán `featured_media`.
 
-## 7. Checklist xuất bản WordPress
+## 7. Checklist riêng cho xuất bản WordPress
 
-Ngoài checklist nội dung của `blog-foundations`:
+Ngoài checklist của `blog-foundations`, kiểm thêm:
 
 - [ ] Đã chọn đúng định dạng (Gutenberg block / Classic HTML) theo môi trường người dùng.
 - [ ] Nội dung bắt đầu từ H2 (không đặt H1 trong body).
