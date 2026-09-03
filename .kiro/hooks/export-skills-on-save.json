@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Export skills on SKILL.md save",
+      "trigger": "PostFileSave",
+      "description": "Tự động sinh lại thư mục export/ cho cả 4 agent (Claude Code, Antigravity, Hermes, Codex) mỗi khi một .kiro/skills/<name>/SKILL.md được lưu.",
+      "matcher": "\\.kiro[\\\\/]skills[\\\\/].*[\\\\/]SKILL\\.md$",
+      "action": {
+        "type": "command",
+        "command": "node scripts/export-skills.mjs",
+        "timeout": 60
+      }
+    }
+  ]
+}
